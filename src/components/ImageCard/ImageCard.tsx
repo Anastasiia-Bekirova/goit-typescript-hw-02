@@ -1,6 +1,7 @@
 import styles from './ImageCard.module.css';
+import { ImageCardProps } from '../App/App.types';
 
-const ImageCard = ({ item , onOpenModal}) => {
+const ImageCard: React.FC<ImageCardProps> = ({ item , onOpenModal}) => {
     return (
         <div>
             <img
